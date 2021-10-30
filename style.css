@@ -334,3 +334,22 @@ background-color: var(--dark-red);
 .pricing .featured .btn-buy:hover {
     background: #ff4b4b;
 }
+
+button.accordion{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--purple);
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+button.accordion::after{
+    
+
+}
